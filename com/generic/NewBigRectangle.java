@@ -2,6 +2,7 @@ package com.generic;
 public class NewBigRectangle extends BigRectangle {
 
 	public NewBigRectangle() {
+		System.out.println("It's me NewBigRectangle");
 	}
 	public static void main(String[] args) {
 		NewBigRectangle nbRectangle = new NewBigRectangle();
